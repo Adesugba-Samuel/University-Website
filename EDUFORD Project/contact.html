@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5714f86e7f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <section id="sub_header">
+      <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="sub_header-text">
+        <h1>Contact Us</h1>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31716.31274344027!2d3.3765376249190884!3d6.453161595163673!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf4cc8be5bb47%3A0xa100e775f73a58!2sLagos%20Island%2C%20Lagos!5e0!3m2!1sen!2sng!4v1660362930906!5m2!1sen!2sng"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+      <div class="contact-row">
+        <div class="contact-col">
+          <div class="contact-text">
+            <i class="fa-solid fa-house-chimney"></i>
+            <span>
+              <h5>XYZ Road, ABC Building</h5>
+              <p>Lagos Island,Nigeria</p>
+            </span>
+          </div>
+          <div class="contact-text">
+            <i class="fa-solid fa-phone"></i>
+            <span>
+              <h5>+234 0123456789</h5>
+              <p>Monday to Saturday, 9AM to 4PM</p>
+            </span>
+          </div>
+          <div class="contact-text">
+            <i class="fa-regular fa-envelope"></i>
+            <span>
+              <h5>info@edusamacademy.com</h5>
+              <p>E-mail us your query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form class="contact-form" netlify>
+            <input type="text" placeholder="Enter Your Name" required />
+            <input
+              type="email" name="name"
+              placeholder="Enter Your E-mail Address"
+              required
+            />
+            <input type="text" name="name" placeholder="Enter Your Subject" required />
+            <textarea rows="8" placeholder="Message" required></textarea>
+            <button type="submit" class="btn redBtn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <section id="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id repudiandae
+        incidunt ab praesentium nisi tempora<br />cum porro repellat. Porro
+        sequi aliquid repellat rerum voluptas.
+      </p>
+      <div class="footer_social-icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+      <p>Made with <i class="fa-regular fa-heart"></i> by Adesugba Samuel</p>
+    </section>
+
+    <!-- Javascript for toggle menu -->
+
+    <script src="main.js"></script>
+  </body>
+</html>
